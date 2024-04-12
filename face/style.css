@@ -470,6 +470,9 @@ button{
         width: 50%;
 
     }
+    .info h3{
+        font-size: 12px;
+    }
     .right-side{
         width:auto;
     }
