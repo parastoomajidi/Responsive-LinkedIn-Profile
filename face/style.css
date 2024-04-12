@@ -1,0 +1,480 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body , html{
+    --primary-blue: #71B7FB;
+    --secondary-gray:#38434F;
+    --bg-black: #1B1F23;
+    --show-gray-deactive:#9E9E9E;
+    --white:#fafafa;
+    font-family:Helvetica, sans-serif ;
+    text-decoration: none;
+  
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+    color: var(--white);
+}
+
+h2{
+    font-size:20px ;
+    font-weight: normal;
+    color: var(--white);
+}
+
+h3{
+    font-size:16px ;
+    font-weight: normal;
+    color: var(--white);
+}
+
+h4{
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--show-gray-deactive);
+}
+
+/* section one*/
+.container{
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.left-side{
+    max-width: 999px;
+    height: auto;
+}
+/***  Header profile   *****/
+.profile-card{
+    max-width: 999px;
+    height: 666px;
+    background: var(--bg-black);
+}
+
+.profile-container{
+    position: relative;
+}
+
+.edite-header{
+    position: absolute;
+    top: 28px;
+    right: 90px;
+
+}
+
+.fa-pen{
+    font-size: 24px;
+    background: #000;
+    color: var(--white);
+    padding: 16px;
+    border-radius: 50%;
+    position: absolute;   
+}
+
+.header-img{
+    width: 999px;
+    max-height: 252px; 
+}
+
+.header-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile{
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 100px;
+    left: 24px;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+}
+/***  user detail   *****/
+
+.user-status{
+    margin-top: 52px;
+    margin-left: 20px;
+}
+
+.user-status h1{
+    margin-bottom: 12px;
+}
+.user-status h2{
+    margin-bottom: 8px;
+
+}
+.user-status h3{
+    margin-bottom: 8px;
+}
+.status-detail{
+    display: flex;
+    flex-direction: row;
+    
+}
+.status-detail :last-child{
+    color: var(--primary-blue);
+    margin-left: 12px;
+}
+#connection{
+    color: var(--primary-blue);
+    margin-bottom: 24px;   
+}
+
+/***  Buttons   *****/
+
+button{
+    width: 130px;
+    height: 36px;
+    border-radius:57px ;
+    font-size: 16px;
+    font-weight:normal;
+    margin-right: 8px;
+}
+
+.opento-btn{
+    background: var(--primary-blue);
+    color: var(--bg-black);
+}
+
+.addsection-btn{
+    width: 160px;
+    background: none;
+    border: 2px solid var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.more-btn{
+    width: 66px;
+    border: 2px solid var(--show-gray-deactive);
+    background: none;
+    color: var(--white);
+}
+/***  Open to work   *****/
+.open-to-work{
+    width: 507px;
+    height: 96px;
+    background: var(--secondary-gray);
+    border-radius: 10px;
+    margin-top: 24px;
+    padding: 24px;
+    display: flex;
+    
+}
+
+.work-info h3{
+    color: var(--primary-blue);
+}
+
+.edite-work-info .fa-pen {
+   font-size: 24px;
+   color: var(--white);
+   background: none;
+   margin-left: 15%;
+}
+/***  section two Suggest for you  *****/
+
+.suggest-user{
+    max-width: 999px;
+    height: auto;
+    background:var(--bg-black);
+    margin-top: 4px;
+    padding: 32px;   
+}
+
+
+.in-detail{
+    display: flex;
+    margin-top: 12px; 
+    color: var(--show-gray-deactive);  
+}
+
+.in-detail .fa-eye{
+    color: var(--show-gray-deactive);
+    font-size: 16px;
+    margin-right: 12px;
+    
+}
+
+.in-detail h3{
+    color: var(--show-gray-deactive);
+}
+/***  analytics  *****/
+.analytics{
+    max-width: 999px;
+    height: auto;
+    background:var(--bg-black);
+    margin-top: 4px;
+    padding: 24px;
+}
+
+.info h2{
+    margin-bottom: 12px;
+}
+
+.info h3{
+    margin-bottom: 12px;
+}
+
+.analytic-user-cards{
+    height: 96px;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;   
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.cards{
+    display: flex;
+}
+
+.analytic{
+    display: flex;
+}
+
+.fa-chart-simple{
+    margin-right: 12px;
+    font-size: 24px;
+    color: var(--white);
+}
+
+.more-info-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.more-info-cards .fa-arrow-right{
+    font-size: 24;
+    color: var(--white);
+    margin-left: 12px;
+    
+}
+
+/***  section four resources  *****/
+.resource{
+    max-width: 999px;
+    height: auto;
+    background:var(--bg-black);
+    margin-top: 4px;
+    padding: 32px;
+}
+
+
+
+.resource-user-cards{
+    display: flex;
+}
+
+.resource .in-detail{
+    margin-bottom: 12px;
+}
+
+.resources{
+    display: flex;
+}
+
+.resource hr{
+    margin: 12px;
+}
+
+/***  about   *****/
+.about{
+    max-width: 999px;
+    height: auto;
+    background: var(--bg-black);
+    margin-top: 4px;
+    padding: 32px;
+}
+
+.about h3{
+    margin-top: 24px;
+}
+
+.about-users{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .about-users .fa-user-pen{
+    font-size: 24px;
+    background: none;
+    color: var(--white);
+ }
+
+/***  education   *****/
+
+.education{
+    max-width: 999px;
+    height: auto;
+    background:var(--bg-black);
+    margin-top: 4px;
+    padding: 32px;
+}
+
+.edu-icon{
+    display: flex;
+    color: var(--white);
+    font-size: 24px;
+}
+ 
+.edu-icon .fa-plus{
+    margin-right: 24px;
+}  
+
+.edu-profile {
+    display: flex;
+    justify-content: space-between;
+}
+   
+.edu-detail{
+    display: flex;
+    margin-top: 24px;
+}
+.edu-img{
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+
+}
+.edu-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.edu-info h2{
+    
+    margin-bottom: 12px;
+}
+.edu-info h4{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+/***  skills   *****/
+
+.skills{
+    max-width: 999px;
+    height: auto;
+    background: var(--bg-black);
+    margin-top: 4px;
+    padding: 32px;
+}
+.skills h1{
+    margin-top: 24px;
+}
+
+.skill-icon{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.skill-detail h2{
+    margin-top: 24px;
+}
+
+ .fa-user{
+    size: 24px;
+    color: var(--white);
+    margin-right: 12px;
+}
+
+.narrow-line{
+    width: 95%;
+    border: 0.5px solid var(--secondary-gray);
+    margin: 40px auto 24px auto;
+    
+}
+.line{
+    width: 100%;
+    border: 0.5px solid var(--secondary-gray);
+    margin: 40px auto 24px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+}
+
+/***  right side   *****/
+.right-side{
+    width: auto;
+    height: 252px;
+    background: #941d1d;
+    padding: 40px;
+    background: var(--bg-black);
+    margin-left: 0.5%;
+    border-radius: 10px;
+}
+
+.test .lang-detail{
+    display: flex;   
+    text-align: justify;
+    margin-bottom: 24px;
+
+
+}
+
+.lang-detail .fa-pen{
+    font-size: 24px;
+    background: none;
+    color: var(--primary-blue);
+
+
+}
+/***  Media   *****/
+
+@media only screen and  (max-width:1440px) {
+    .container{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+      
+    }  
+    .right-side{
+        margin-top: 12px;
+        width: 920px;
+    }  
+}
+
+@media only screen and (max-width:800px) {
+    .container{
+        align-items: flex;
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+    }  
+
+    .left-side{
+        width: auto;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .profile img{
+        height: 50%;
+        width: 50%;
+
+    }
+    .right-side{
+        width:auto;
+    }
+
+}
+
+
+
